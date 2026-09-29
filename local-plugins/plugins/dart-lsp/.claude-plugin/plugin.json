@@ -1,0 +1,22 @@
+{
+  "name": "dart-lsp",
+  "description": "Dart language server for Claude Code, providing code intelligence and diagnostics. Backed by the analysis server bundled in the Flutter SDK.",
+  "version": "1.1.0",
+  "keywords": [
+    "dart",
+    "flutter",
+    "lsp"
+  ],
+  "author": {
+    "name": "MorganJ"
+  },
+  "lspServers": {
+    "dart": {
+      "command": "dart",
+      "args": ["language-server", "--protocol=lsp"],
+      "extensionToLanguage": {
+        ".dart": "dart"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "local-plugins",
+  "description": "Machine-local plugins for this developer. Not shared with any team.",
+  "owner": {
+    "name": "MorganJ"
+  },
+  "plugins": [
+    {
+      "name": "dart-lsp",
+      "description": "Dart/Flutter language server, backed by the analysis server bundled in the Flutter SDK",
+      "version": "1.1.0",
+      "source": "./plugins/dart-lsp",
+      "strict": false
+    }
+  ]
+}

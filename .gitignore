@@ -1,0 +1,15 @@
+# Allowlist: only portable personal Claude Code config is tracked.
+# Everything else in ~/.claude (credentials, transcripts, memory, caches,
+# plugin installs, machine-local settings) stays out.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/CLAUDE.md
+!/settings.json
+!/keybindings.json
+!/statusline-command.js
+!/skills/
+!/agents/
+!/output-styles/
+!/local-plugins/
