@@ -54,7 +54,7 @@ correctly except the checklist below.
    window resets on a clock; a waiting session costs nothing.
 6. **Compaction at every gate.** The gate relay includes:
    `/compact keeping only your plan section, the rulings, commit SHAs, and open items`.
-7. **Finish.** `merging-worktrees-into-master` skill; Morgan pushes or dcommits.
+7. **Finish.** Merge the worktree branches back into master; Morgan pushes or dcommits.
 
 ## Brief template (the chip prompt)
 
@@ -97,7 +97,7 @@ never re-open a decided item.
 
 Gates (a session stops at each and reports in ten lines):
 G0 plan approved · G1 <observable fact> · G2 <observable fact> · … · Gn merge
-via merging-worktrees-into-master.
+of the worktree branches into master.
 Rulings protocol: a session that hits an ambiguity asks the orchestrator with a
 recommended answer; it never guesses silently and never re-opens decided items.
 Compaction points: after each gate.
